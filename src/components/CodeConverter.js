@@ -26,7 +26,7 @@ const CodeConverter = () => {
     const languages = ['Python', 'JavaScript', 'Java', 'C++', 'Golang'];
     const outputTextareaRef=useRef(null)
 
-    const API_KEY = '';
+    const API_KEY="";
 
     const convertCode = async() => {
         // This is where you'd implement the actual code conversion logic

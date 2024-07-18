@@ -26,7 +26,7 @@ const MeetingnotesSummarizer = () => {
     const [prompt] = useState("You will be provided with meeting notes, and your task is to summarize the meeting as follows:\n    \n    -Overall summary of discussion\n    -Action items (what needs to be done and who is doing it)\n    -If applicable, a list of topics that need to be discussed more fully in the next meeting.");
     const outputSummaryRef = useRef(null)
 
-    const API_KEY = "";
+    const API_KEY="";
 
     const generateMeetingNotesSummr = async (e) => {
         setIsGenerating(true);

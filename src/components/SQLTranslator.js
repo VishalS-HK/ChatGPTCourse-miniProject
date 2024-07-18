@@ -8,7 +8,7 @@ const SQLTranslator = () => {
     const [isGenerating, setIsGenerating] = useState(false);
     const [prompt] = useState("Just provide the SQL query for the following request and nothing else. Provide only the SQL query without any additional formatting or explanation:")
 
-    const API_KEY = '';
+    const API_KEY="";
 
     const generateSql = async (e) => {
         setIsGenerating(true);
