@@ -31,7 +31,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import SQLTranslator from './components/SQLTranslator';
 import CodeConverter from './components/CodeConverter';
-import InterviewQuestions from './components/InterviewQuestions';
+import Wire2Web from './components/Wire2Web';
 import MeetingnotesSummarizer from './components/MeetingnotesSummarizer';
 import './styles.css';
 
@@ -44,7 +44,7 @@ const App = () => {
                 <Routes>
                     <Route path="/sql-translator" element={<SQLTranslator />} />
                     <Route path="/code-converter" element={<CodeConverter />} />
-                    <Route path="/interview-question" element={<InterviewQuestions />} />
+                    <Route path="/wire-2-web" element={<Wire2Web />} />
                     <Route path="/meeting-summary" element={<MeetingnotesSummarizer />} />
                     <Route path="/" element={<p>Select a tool from the navigation above to get started.</p>} />
                 </Routes>

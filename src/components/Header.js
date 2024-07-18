@@ -12,7 +12,7 @@ const Header = () => {
                     <Link to="/sql-translator">SQL Translator</Link>
                     <Link to="/code-converter">Code Converter</Link>
                     <Link to="/meeting-summary">Meeting notes Summarizer</Link>
-                    <Link to="/interview-question">Interview Questions</Link>
+                    <Link to="/wire-2-web">Wire2Web</Link>
                 </nav>
             </div>
         </header>
