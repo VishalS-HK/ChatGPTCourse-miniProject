@@ -9,7 +9,7 @@ const WireframeToCode = () => {
     const [isGenerating, setIsGenerating] = useState(false);
     const [prompt] = useState("Generate HTML and CSS code for this wireframe image. Provide the HTML and CSS separately, starting with 'HTML:' and 'CSS:' respectively. Do not include any other text or explanations.");
 
-    const API_KEY="AIzaSyCk8AoBsRteyRKtwhVHMiTnKiSVVR0OBfY"
+    const API_KEY="";
 
 
     const handleImageChange = (e) => {
